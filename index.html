@@ -644,12 +644,18 @@
   }
   .portfolio-grid {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat(2, 1fr);
     gap: 28px;
+=======
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+>>>>>>> 2d6e6f6232bcc59c42bb4085b27aaf0e9b8afa84
   }
   .project-card {
     background: var(--bg);
     border: 1px solid var(--glass-border);
+<<<<<<< HEAD
     border-radius: 16px;
     overflow: hidden;
     transition: all 0.35s;
@@ -682,10 +688,45 @@
     align-items: flex-end;
     justify-content: flex-start;
     padding: 20px;
+=======
+    border-radius: 14px;
+    overflow: hidden;
+    transition: all 0.3s;
+    group: true;
+  }
+  .project-card:hover {
+    border-color: rgba(0,205,166,0.3);
+    transform: translateY(-6px);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+  }
+  .project-thumb {
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+  }
+  .project-thumb-bg {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 52px;
+    transition: transform 0.4s;
+  }
+  .project-card:hover .project-thumb-bg { transform: scale(1.1); }
+  .project-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(11,17,32,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+>>>>>>> 2d6e6f6232bcc59c42bb4085b27aaf0e9b8afa84
     opacity: 0;
     transition: opacity 0.3s;
   }
   .project-card:hover .project-overlay { opacity: 1; }
+<<<<<<< HEAD
   .project-live-tag {
     display: inline-flex;
     align-items: center;
@@ -702,6 +743,9 @@
   }
   .project-live-tag .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--secondary); animation: blink 2s ease infinite; }
   .project-body { padding: 28px; }
+=======
+  .project-body { padding: 24px; }
+>>>>>>> 2d6e6f6232bcc59c42bb4085b27aaf0e9b8afa84
   .project-cat {
    font-family: 'Poppins', sans-serif;
     font-size: 10px;
@@ -710,9 +754,15 @@
     text-transform: uppercase;
     margin-bottom: 8px;
   }
+<<<<<<< HEAD
   .project-body h3 { font-size: 20px; font-weight: 700; margin-bottom: 10px; }
   .project-body p { font-size: 14px; color: var(--text-muted); line-height: 1.65; margin-bottom: 20px; }
   .tech-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 20px; }
+=======
+  .project-body h3 { font-size: 17px; font-weight: 700; margin-bottom: 8px; }
+  .project-body p { font-size: 13px; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px; }
+  .tech-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+>>>>>>> 2d6e6f6232bcc59c42bb4085b27aaf0e9b8afa84
   .tech-tag {
     padding: 3px 10px;
     border-radius: 100px;
@@ -722,6 +772,7 @@
     color: var(--text-dim);
    font-family: 'Poppins', sans-serif;
   }
+<<<<<<< HEAD
   .project-link {
     display: inline-flex;
     align-items: center;
@@ -735,6 +786,8 @@
   .project-link:hover { gap: 12px; color: var(--secondary); }
   .project-link svg { transition: transform 0.2s; }
   .project-link:hover svg { transform: translate(2px,-2px); }
+=======
+>>>>>>> 2d6e6f6232bcc59c42bb4085b27aaf0e9b8afa84
 
   /* ─── PROCESS ─── */
   #process { position: relative; overflow: hidden; }
@@ -1032,6 +1085,10 @@
     .code-float { display: none; }
     .services-grid { grid-template-columns: repeat(2, 1fr); }
     .why-layout { grid-template-columns: 1fr; gap: 40px; }
+<<<<<<< HEAD
+=======
+    .portfolio-grid { grid-template-columns: repeat(2, 1fr); }
+>>>>>>> 2d6e6f6232bcc59c42bb4085b27aaf0e9b8afa84
     .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
     .tech-grid { grid-template-columns: repeat(4, 1fr); }
     .process-steps { grid-template-columns: repeat(4, 1fr); }
@@ -1051,7 +1108,10 @@
     .process-steps { grid-template-columns: repeat(2, 1fr); }
     .footer-grid { grid-template-columns: 1fr; gap: 30px; }
     .hero-stats { gap: 24px; }
+<<<<<<< HEAD
     .project-thumb { height: 220px; }
+=======
+>>>>>>> 2d6e6f6232bcc59c42bb4085b27aaf0e9b8afa84
   }
 
   @media (max-width: 480px) {
@@ -1067,7 +1127,11 @@
   <div class="container nav-inner">
     <a href="#" class="logo">
      <div class="logo-icon">
+<<<<<<< HEAD
         <img src="2.jpg" alt="Logo Saya" style="height: 30px; width: auto; object-fit: cover; border-radius: 50px;">
+=======
+        <img src="2.jpg" alt="Logo Saya" style="height: 30px; width: auto; object-fit: cover; border-radius: 50px;"">
+>>>>>>> 2d6e6f6232bcc59c42bb4085b27aaf0e9b8afa84
      </div>
       YOSU
     </a>
@@ -1394,6 +1458,7 @@
     <div class="reveal">
       <p class="section-label">Our work</p>
       <h2 class="section-title">Featured <span class="grad-text">Projects</span></h2>
+<<<<<<< HEAD
       <p style="color:var(--text-muted);max-width:480px;font-size:16px;">Real products, live in production — built end-to-end by our team.</p>
     </div>
     <div class="portfolio-grid reveal">
@@ -1444,6 +1509,128 @@
         </div>
       </div>
 
+=======
+      <p style="color:var(--text-muted);max-width:480px;font-size:16px;">A selection of projects that showcase our engineering depth and design quality.</p>
+    </div>
+    <div class="portfolio-filter reveal">
+      <button class="filter-btn active">All</button>
+      <button class="filter-btn">Web App</button>
+      <button class="filter-btn">Mobile</button>
+      <button class="filter-btn">Enterprise</button>
+      <button class="filter-btn">AI/ML</button>
+    </div>
+    <div class="portfolio-grid reveal">
+      <div class="project-card">
+        <div class="project-thumb">
+          <div class="project-thumb-bg" style="background:linear-gradient(135deg,#0a1f1a,#0e3028);">🏦</div>
+          <div class="project-overlay">
+            <a href="#" class="btn btn-primary" style="padding:10px 20px;font-size:13px;">Live Demo →</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-cat">Enterprise · Web App</p>
+          <h3>FinVault Banking Platform</h3>
+          <p>Core banking system with real-time transactions, fraud detection, and multi-currency support.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Laravel</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">PostgreSQL</span>
+            <span class="tech-tag">AWS</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb">
+          <div class="project-thumb-bg" style="background:linear-gradient(135deg,#0a1f1a,#0a2e25);">🤖</div>
+          <div class="project-overlay">
+            <a href="#" class="btn btn-primary" style="padding:10px 20px;font-size:13px;">Live Demo →</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-cat">AI/ML · Automation</p>
+          <h3>IntelliOps AI Dashboard</h3>
+          <p>Predictive analytics and anomaly detection platform for infrastructure monitoring.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Next.js</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">K8s</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb">
+          <div class="project-thumb-bg" style="background:linear-gradient(135deg,#0d2420,#0e3d2e);">🚚</div>
+          <div class="project-overlay">
+            <a href="#" class="btn btn-primary" style="padding:10px 20px;font-size:13px;">Live Demo →</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-cat">Mobile · Logistics</p>
+          <h3>TrackPro Fleet Manager</h3>
+          <p>Real-time fleet tracking app with route optimization and driver performance analytics.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">React Native</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Redis</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb">
+          <div class="project-thumb-bg" style="background:linear-gradient(135deg,#1a2420,#0d3528);">🏥</div>
+          <div class="project-overlay">
+            <a href="#" class="btn btn-primary" style="padding:10px 20px;font-size:13px;">Live Demo →</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-cat">Enterprise · Healthcare</p>
+          <h3>MediCore EHR System</h3>
+          <p>HIPAA-compliant electronic health records system with appointment scheduling and billing.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Vue.js</span>
+            <span class="tech-tag">Laravel</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb">
+          <div class="project-thumb-bg" style="background:linear-gradient(135deg,#0a201c,#0d3328);">📊</div>
+          <div class="project-overlay">
+            <a href="#" class="btn btn-primary" style="padding:10px 20px;font-size:13px;">Live Demo →</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-cat">Web App · SaaS</p>
+          <h3>DataSync Analytics Suite</h3>
+          <p>Multi-tenant SaaS analytics platform with white-label support and custom reporting.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Next.js</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Postgres</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb">
+          <div class="project-thumb-bg" style="background:linear-gradient(135deg,#0a1e1c,#0d2e26);">🛒</div>
+          <div class="project-overlay">
+            <a href="#" class="btn btn-primary" style="padding:10px 20px;font-size:13px;">Live Demo →</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-cat">E-Commerce · Mobile</p>
+          <h3>ShopVibe Marketplace</h3>
+          <p>High-traffic e-commerce platform handling 10K+ concurrent users with AI-powered recommendations.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">PHP</span>
+            <span class="tech-tag">AWS</span>
+          </div>
+        </div>
+      </div>
+>>>>>>> 2d6e6f6232bcc59c42bb4085b27aaf0e9b8afa84
     </div>
   </div>
 </section>
@@ -1616,11 +1803,19 @@
         <h2 style="font-size:clamp(2rem,5vw,3.5rem);font-weight:800;">Ready to Build Your<br><span class="grad-text">Next Digital Product?</span></h2>
         <p style="font-size:17px;color:var(--text-muted);max-width:500px;margin:16px auto 40px;">Tell us about your project. We'll get back to you within 24 hours with a tailored approach.</p>
         <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+<<<<<<< HEAD
           <a href="mailto:yosu.office@gmail.com" class="btn btn-primary" style="font-size:16px;padding:16px 34px;">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
             Let's Discuss Your Project
           </a>
           <a href="tel:+62876939589" class="btn btn-outline" style="font-size:16px;padding:16px 34px;">
+=======
+          <a href="mailto:hello@Yosu.dev" class="btn btn-primary" style="font-size:16px;padding:16px 34px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Let's Discuss Your Project
+          </a>
+          <a href="tel:+6281234567890" class="btn btn-outline" style="font-size:16px;padding:16px 34px;">
+>>>>>>> 2d6e6f6232bcc59c42bb4085b27aaf0e9b8afa84
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.9a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
             Schedule a Call
           </a>
@@ -1637,8 +1832,12 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="#" class="logo" style="font-size:20px;">
+<<<<<<< HEAD
           
         <img src="2.jpg" alt="Logo Saya" style="height: 30px; width: auto; object-fit: cover; border-radius: 50px;">
+=======
+         <img src="2.jpg" alt="Logo Saya" style="height: 25px;width: auto;object-fit: cover;border-radius: 50px;" "="">
+>>>>>>> 2d6e6f6232bcc59c42bb4085b27aaf0e9b8afa84
           Yosu
         </a>
         <p>Building scalable digital solutions for modern businesses. We engineer software that stands the test of time.</p>
@@ -1676,8 +1875,13 @@
       <div class="footer-col">
         <h4>Contact</h4>
         <ul>
+<<<<<<< HEAD
           <li><a href="mailto:yosu.office@gmail.com">yosu.office@gmail.com</a></li>
           <!-- <li><a href="tel:+62876939589">+62 812-3456-7890</a></li> -->
+=======
+          <li><a href="mailto:hello@Yosu.dev">hello@Yosu.dev</a></li>
+          <li><a href="tel:+6281234567890">+62 812-3456-7890</a></li>
+>>>>>>> 2d6e6f6232bcc59c42bb4085b27aaf0e9b8afa84
           <li><a href="#">Jakarta, Indonesia</a></li>
           <li><a href="#">Privacy Policy</a></li>
           <li><a href="#">Terms of Service</a></li>
@@ -1815,6 +2019,18 @@ setTimeout(() => {
   animateCounter(document.getElementById('stat4'), 99.9, '%');
 }, 800);
 
+<<<<<<< HEAD
+=======
+// ── PORTFOLIO FILTER ──
+const filterBtns = document.querySelectorAll('.filter-btn');
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  });
+});
+
+>>>>>>> 2d6e6f6232bcc59c42bb4085b27aaf0e9b8afa84
 // ── SMOOTH SCROLL ──
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener('click', e => {
@@ -1827,4 +2043,8 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 });
 </script>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 2d6e6f6232bcc59c42bb4085b27aaf0e9b8afa84
